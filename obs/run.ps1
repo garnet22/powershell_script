@@ -1,0 +1,1 @@
+start-process -FilePath "C:\Program Files\obs-studio\bin\64bit\obs64.exe" -WorkingDirectory "C:\Program Files\obs-studio\bin\64bit\" -ArgumentList "--startrecording --minimize-to-tray -m --disable-updater --profile Untitled --scene Untitled" 

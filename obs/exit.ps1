@@ -1,0 +1,1 @@
+Get-Process -Name obs64 | where { $_.SessionId -eq ([System.Diagnostics.Process]::GetCurrentProcess().SessionId) } | Stop-Process -Force
